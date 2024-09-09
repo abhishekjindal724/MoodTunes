@@ -14,8 +14,8 @@ from threading import Thread
 from Spotipy import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-CLIENT_ID = '0835139242a64ad487af4a5611cdac17'
-CLIENT_SECRET = '3f2d0a5f9ab745b18bb71c9526693894'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 client_credentials_manager = SpotifyClientCredentials(CLIENT_ID, CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
